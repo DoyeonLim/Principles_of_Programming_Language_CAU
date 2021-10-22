@@ -15,5 +15,5 @@ void p_value_result_call(int* x, int* y) {
 
 main() {
     p_value_result_call(&a[i], &a[i]);
-    printf("reference : a[0]=%d, a[1]=%d\n", a[0], a[1]);
+    printf("value-result(call) : a[0]=%d, a[1]=%d\n", a[0], a[1]);
 }
