@@ -19,5 +19,5 @@ void p_name(int* x, int* y) {
 
 main() {
     p_name(&a[i], &a[i]);
-    printf("reference : a[0]=%d, a[1]=%d\n", a[0], a[1]);
+    printf("name : a[0]=%d, a[1]=%d\n", a[0], a[1]);
 }
